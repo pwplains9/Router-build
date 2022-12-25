@@ -1,0 +1,26 @@
+{
+    "rules": {},
+    "env": {
+        "es6": true,
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "_": "readonly",
+		"objectFitImages": "readonly",
+		"objectFitVideos": "readonly",
+        "gsap": "readonly",
+        "Draggable": "readonly",
+        "ScrollTrigger": "readonly",
+        "AOS": "readonly",
+		"_debounce": "readonly",
+		"_throttle": "readonly",
+        "ga": "readonly"
+    }
+}

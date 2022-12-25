@@ -1,0 +1,6 @@
+# Browsers that we support
+# Test in terminal npx browserslist 'cover 92%, not ie <= 10, not dead, not op_mini all'
+cover 92%
+not ie <= 10
+not dead
+not op_mini all

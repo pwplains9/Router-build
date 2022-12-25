@@ -1,0 +1,98 @@
+/* stylelint-disable */
+
+$sprites: (
+    'arrow-down': "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M.805 1.458 14 14.653 27.195 1.458' fill='none' stroke='currentColor' stroke-width='1.75'/%3e%3c/svg%3e",
+    'logo-en': "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3cclipPath id='a'%3e%3cpath d='M-2065.385 8647.031v-5952.8h8418.9v5952.8h-8418.9z'/%3e%3c/clipPath%3e%3cpath fill='none' d='M-1-1h576v78H-1z'/%3e%3cg clip-path='url(%23a)' transform='matrix(.13333 0 0 -.13333 1 794.707)'%3e%3cpath fill='%2300d741' d='M3674.685 5616.711h108.61v108.609h-108.61v-108.609z'/%3e%3cpath d='M3290.065 5397.901h493.23v108.609h-493.23v-108.609zm0 437.62h493.23v108.609h-493.23v-108.609zm0-218.81h298.59v108.609h-298.59v-108.609zM3.425 5944.131h143.63l207.79-359.83v359.83h110.02v-546.23h-123.77l-227.65 388.85v-388.85H3.425v546.23m570.04-546.23h124.527v546.227H573.465v-546.227zm233.13 546.23h143.63l207.79-359.83v359.83h110.01v-546.23h-123.76l-227.65 388.85v-388.85h-110.02v546.23m567.26 0h356.01v-96.26h-233.01v-127.58h186.41v-90.15h-186.41v-135.98h245.23v-96.26h-368.23v546.23m694.06 0h123.76v-449.21h222.3v-97.02h-346.06v546.23m430.89-546.23h124.527v546.227h-124.527v-546.227zm233.14 546.23h143.62l207.8-359.83v359.83h110v-546.23h-123.76l-227.65 388.85v-388.85h-110.01v546.23m1118.83-375.11h118.41c5.35-48.88 25.98-89.37 106.96-89.37 54.24 0 90.15 29.79 90.15 72.57 0 43.54-22.92 58.82-103.14 71.05-139.8 18.33-197.1 60.35-197.1 165.77 0 93.21 77.92 162.72 198.63 162.72 122.99 0 194.8-55 204.74-163.48h-113.83c-7.64 49.66-36.67 72.58-90.91 72.58-54.24 0-81.75-25.21-81.75-61.88 0-38.97 17.57-57.3 101.61-69.52 132.16-16.81 200.15-52.72 200.15-165.78 0-97.03-79.44-174.18-208.55-174.18-149.74 0-218.49 70.28-225.37 179.52'/%3e%3c/g%3e%3c/svg%3e",
+    'logo-ru': "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3cg clip-path='M49.75 70.93H0v-57.2h49.75z'%3e%3cpath d='M15 53a453 453 0 0 0 4-31h14v31zm-5 9h30v9h10V53h-6V14H9L8 41c0 7-2 11-5 12H0v18h10z'/%3e%3c/g%3e%3cpath d='M122 55V41h7c6 0 8 2 8 6v1c0 4-2 7-8 7zm0-21V21h6c5 0 8 2 8 6 0 5-2 7-8 7zm-11 28h20c11 0 17-5 17-13v-1c0-6-4-10-10-11 6-2 8-5 8-10v-1c0-8-5-12-16-12h-19zm69-40v14h-6c-5 0-8-2-8-7s3-7 8-7zm-5 22h5v18h11V14h-17c-11 0-19 4-19 15 0 7 4 11 10 13l-13 20h12zm36-22h-13v-8h37v8h-13v40h-11zm42 32V39h6c5 0 8 2 8 7v1c0 5-3 7-8 7zm-10 8h16c12 0 19-5 19-15v-1c0-10-7-15-18-15h-7V14h-10zm63 1-3-1v-9h1c4 0 6-4 6-11l1-28h34v48h-11V22h-13l-1 22c-1 11-4 19-14 19m50-1V14h11v34l20-34h11v48h-11V28l-20 34zm52-48h11v20h19V14h11v48h-11V42h-19v20h-11zm51 48V14h11v34l20-34h11v48h-11V28l-20 34zm63-61c0 6 4 10 10 10s10-4 11-10h-7c-1 2-2 4-4 4s-3-2-3-4zm0 61 20-34v34h11V14h-11l-20 34V14h-11v48z'/%3e%3cg clip-path='M0 70.92h553.42V1H0z'%3e%3cpath d='M58 62h43v-9H58z'/%3e%3c/g%3e%3cg clip-path='M0 70.92h553.42V1H0z'%3e%3cpath d='M58 23h43v-9H58z'/%3e%3c/g%3e%3cg clip-path='M0 70.92h553.42V1H0z'%3e%3cpath d='M58 43h26V33H58z'/%3e%3c/g%3e%3cg clip-path='M0 70.92h553.42V1H0z'%3e%3cpath fill='%2300d741' d='M92 43h10V33H92z'/%3e%3c/g%3e%3c/svg%3e",
+    'minus': "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M.937 1.406H11.32' stroke='currentColor' fill='none' stroke-width='1.54'/%3e%3c/svg%3e",
+    'plus': "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M5.871.215v10.382M.68 5.406h10.382' stroke='currentColor' stroke-width='1.55'/%3e%3c/svg%3e",
+    'triangle': "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M20.75 10.507c1.333.77 1.333 2.694 0 3.464L3.694 23.818c-1.334.77-3-.193-3-1.733V2.393c0-1.54 1.666-2.502 3-1.732l17.054 9.846Z' fill='currentColor'/%3e%3c/svg%3e"
+);
+
+$sizes: (
+    'arrow-down': (
+        'width': 28px,
+        'height': 16px
+    ),
+    'logo-en': (
+        'width': 574px,
+        'height': 76px
+    ),
+    'logo-ru': (
+        'width': 554px,
+        'height': 71px
+    ),
+    'minus': (
+        'width': 12px,
+        'height': 3px
+    ),
+    'plus': (
+        'width': 12px,
+        'height': 11px
+    ),
+    'triangle': (
+        'width': 22px,
+        'height': 25px
+    )
+);
+
+$variables: (
+    /* EMPTY */
+);
+
+// https://github.com/waldemarfm/sass-svg-uri/blob/v1.0.0/_svg-uri.scss
+@function sprite-str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+
+    @if type-of($replace) == 'null' {
+        $replace: '';
+    }
+
+    @if ( $index ) {
+        @return str-slice($string, 1, $index - 1) + $replace + sprite-str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+
+    @return $string;
+}
+
+@function sprite-svg-uri($value) {
+    $output: $value;
+
+    $output: sprite-str-replace($output, '"', "'");
+    $output: sprite-str-replace($output, '<', '%3C');
+    $output: sprite-str-replace($output, '>', '%3E');
+    $output: sprite-str-replace($output, '&', '%26');
+    $output: sprite-str-replace($output, '#', '%23');
+
+    @return $output;
+}
+
+@mixin sprite($name, $user-variables: (), $include-size: false) {
+    $sprite: map-get($sprites, $name);
+
+    // Inject variables
+    $default-variables: map-get($variables, $name);
+    @if type-of($default-variables) == 'map' {
+        @each $key, $value in map-merge($default-variables, $user-variables) {
+            @if ( not map-has-key($default-variables, $key) ) {
+                @warn 'Sprite \'#{$name}\' does not support variable named \'#{$key}\'';
+            }
+
+            $sprite: sprite-str-replace($sprite, '___#{$key}___', sprite-svg-uri(quote(#{$value})));
+        }
+    } @else if type-of($user-variables) == 'map' {
+        @warn 'Sprite \'#{$name}\' does not contain any variables';
+    }
+
+    background: url($sprite) center no-repeat;
+
+    @if $include-size {
+        $size: map-get($sizes, $name);
+        @if $include-size == true {
+            background-size: map-get($size, width) map-get($size, height);
+        } @else if $include-size == 'box' {
+            width: map-get($size, width);
+            height: map-get($size, height);
+        }
+    }
+}

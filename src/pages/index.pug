@@ -1,0 +1,25 @@
+extends @pug/base
+
+append globals
+    - pageName = 'home'
+    - title = data[pageName]?.meta?.title ?? data.general.title
+    - description = data[pageName]?.meta?.description ?? data.general.description
+    - image = data[pageName]?.meta?.image ?? data.general.image
+
+append vars
+    - meta.keywords = data[pageName]?.meta?.keywords ?? data.general.keywords
+
+    each linkValue, linkKey in data.general.link
+        - link[linkKey] = linkValue
+
+    each metaValue, metaKey in data.general.meta
+        - meta[metaKey] = metaValue
+
+block content
+    .cd-cover-layer
+    main
+        .cd-main-content
+            include @components/header/header
+            section
+                h1  Index page
+
